@@ -41,18 +41,21 @@ function handleText(textNode)
   	v = v.replace(/\ba Migrant\b/g, "an Expat");
 	v = v.replace(/\bA migrant\b/g, "An expat");
   	v = v.replace(/\bA Migrant\b/g, "An Expat");
-	v = v.replace(/\bmigranten\b/g, "expats");
-  	v = v.replace(/\bMigranten\b/g, "Expats");
   	v = v.replace(/\bmigration\b/g, "expatriation");
   	v = v.replace(/\bMigration\b/g, "Expatriation");
+  	v = v.replace(/\bMIGRATION\b/g, "EXPATRIATION");
   	v = v.replace(/\bmigrate\b/g, "expatriate");
   	v = v.replace(/\bMigrate\b/g, "Expatriate");
+  	v = v.replace(/\bmigrates\b/g, "expatriates");
+  	v = v.replace(/\bMigrates\b/g, "Expatriates");
   	v = v.replace(/\bMigrants\b/g, "Expats");
   	v = v.replace(/\bmigrants\b/g, "expats");
   	v = v.replace(/\bMigrant\b/g, "Expat");
   	v = v.replace(/\bmigrant\b/g, "expat");
+  	v = v.replace(/\bMIGRANT\b/g, "EXPAT");
   	v = v.replace(/\bMig·rant\b/g, "Ex·pat");
   	v = v.replace(/\bmig·rant\b/g, "ex·pat");
+  	v = v.replace(/\bˈmaɪ.ɡrənt\b/g, "ekˈspæt");
 
 	textNode.nodeValue = v;
 }
