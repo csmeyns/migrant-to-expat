@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "Migrant to Expat",
 	"version": "1.0",
-	"description": "Replaces the term 'migrant' (and its variants) with 'expat' (and its variants). Derivative of cloud-to-butt.",
+	"description": "Replaces the term 'migrant' (and its cognates) with 'expat' (and its cognates). Derivative of cloud-to-butt.",
 	"icons": {
 	  "48": "icons/suitcase-48.png",
 	  "96": "icons/suitcase-96.png"
