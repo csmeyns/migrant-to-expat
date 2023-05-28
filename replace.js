@@ -44,18 +44,24 @@ function handleText(textNode)
   	v = v.replace(/\bmigration\b/g, "expatriation");
   	v = v.replace(/\bMigration\b/g, "Expatriation");
   	v = v.replace(/\bMIGRATION\b/g, "EXPATRIATION");
+	v = v.replace(/\bmigratory\b/g, "expatriatory");
+	v = v.replace(/\bMigratory\b/g, "Expatriatory");
   	v = v.replace(/\bmigrate\b/g, "expatriate");
   	v = v.replace(/\bMigrate\b/g, "Expatriate");
   	v = v.replace(/\bmigrates\b/g, "expatriates");
   	v = v.replace(/\bMigrates\b/g, "Expatriates");
+	v = v.replace(/\bmigrated\b/g, "expatriated");
+  	v = v.replace(/\bMigrated\b/g, "Expatriated");
+	v = v.replace(/\bmigrating\b/g, "expatriating");
+  	v = v.replace(/\bMigrating\b/g, "Expatriating");
   	v = v.replace(/\bMigrants\b/g, "Expats");
   	v = v.replace(/\bmigrants\b/g, "expats");
   	v = v.replace(/\bMigrant\b/g, "Expat");
   	v = v.replace(/\bmigrant\b/g, "expat");
   	v = v.replace(/\bMIGRANT\b/g, "EXPAT");
+	v = v.replace(/\bMIGRANTS\b/g, "EXPATS");
   	v = v.replace(/\bMig·rant\b/g, "Ex·pat");
   	v = v.replace(/\bmig·rant\b/g, "ex·pat");
-  	v = v.replace(/\bˈmaɪ.ɡrənt\b/g, "ekˈspæt");
 
 	textNode.nodeValue = v;
 }
